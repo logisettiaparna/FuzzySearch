@@ -39,7 +39,7 @@ def api_hello():
     COMP = "dbslp0569"
     ssh = paramiko.SSHClient()
     ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-    ssh.connect(COMP, username="llogiset", password="8l24fk906@3M", allow_agent = False)
+    ssh.connect(COMP, username="xxx", password="xxxxxxxx", allow_agent = False)
 
     tv = TfidfVectorizer()
     ftp = ssh.open_sftp()
